@@ -1,0 +1,26 @@
+body {
+    width: 70%;
+    margin: 0 auto;
+
+    background-image: url(https://raw.githubusercontent.com/itc-digital/itc_course/master/CSS_1/first_bg.jpg) ;
+    background-position: center;
+    background-size: cover;
+    background-size: contain;
+}
+h1, h2, h3{ font-family:Verdana, Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 1.5 em; }
+h1{font-size: 32px;}
+table, th, td {border:1px solid black;}
+figcaption {
+    font-style: italic;
+}
+figure {
+
+    float: right;
+}
+table {width: 100%; border-spacing: 0; }
+tr { background: #b4e9d9  repeat-y; }
+.block1 {
+    background: #c5e1b9; /* Цвет фона под заголовком */
+    display: inline-block
+}
